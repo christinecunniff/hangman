@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="stylesheets/main.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="main.js"></script>
+
+
+
+	<title>* H A N G M A N *</title>
+
+</head>
+	<body>
+		<h1>Let's play H A N G M A N !</h1>
+		<p id="js-instruction">How to play: Player 1 enters a single lowercase word WITHOUT SHOWING PLAYER 2 (no peeking, player 2!) and presses the button. On the next page, Player 2 will begin guessing. Have fun!</p>
+		<!-- word to guess, starts with and empty box for each! -->
+		<div id="js-word" class="word">
+			
+		</div>
+
+		<br>
+		<!-- display the alphabet here, user will click a letter to guess -->
+		<div id="js-letter-picker" class="letter">
+		</div>
+
+		<p id="js-guesses"></p>
+
+		
+		<form id="js-hangman-word">
+			<input type="text"> <button type="submit">Start the game!</button>
+		</form>
+		
+
+
+
+	</body>
+</html>
